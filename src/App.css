@@ -1,0 +1,66 @@
+.main {
+  width: 100%;
+  height: 80vh;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 30px;
+
+}
+
+#Virtualai {
+  height: 72%;
+}
+
+span {
+  background: linear-gradient(to right, rgb(46, 153, 196), rgb(190, 66, 66));
+  font-size: 1.3vmax;
+  background-clip: text;
+  color: transparent;
+  align-items: center;
+
+}
+
+button {
+  width: 180px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  gap: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(86, 160, 202);
+  box-shadow: 2px 2px 100px rgb(86, 185, 202);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.response{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#speakimg {
+  width: 200px;
+
+}
+
+p{
+  font-size: 2vmax;
+  color: white;
+
+}
+
+#aivoice{
+  width: 40vh;
+  height: 100px;
+}
